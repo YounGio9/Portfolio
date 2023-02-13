@@ -1,0 +1,92 @@
+*{padding: 0; margin: 0;}
+
+#Banner{
+    width: 9vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818;
+    color: white;
+}
+#presentation {
+    width: 100%;
+    background-color: #08fdd8;
+    color: black;
+}
+#second {
+    background-color: black;
+    color: #08fdd8;
+    font-size: 1.7vw;
+}
+#first {
+    font-size: 2.3vw;
+}
+
+#presentation p {
+    font-family: Mallory, fantasy;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    padding: 22px 0;
+    font-size: 0.95rem;
+}
+#menu {
+    width: 100%;
+    border-top: 1px solid #909096;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: #909096;
+}
+li {
+    border-bottom: 1px solid #909096;
+    padding: 10px;
+    text-align: center;
+
+}
+#reseaux {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    padding-bottom: 80%;
+}
+@media (max-width: 650px) {
+    #presentation p { 
+        font-size: 20px;
+    }
+    .Banner-open {
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #181818;
+        color: white;
+        transition: 0.8s;
+    }
+
+    .Banner-close {
+        width: 0px;
+        opacity: 0;
+        transition: 0s;
+    }
+}
+
+
+
+
