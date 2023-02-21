@@ -30,7 +30,7 @@ const Welcome = ({menuOpen, setMenuOpen}) => {
         })
 
 
-    })
+    }, [])
     return(
             <div id={'welcome'}>
                 <button className="menu" onClick={toggleMenu}>

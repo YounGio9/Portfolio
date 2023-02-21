@@ -2,7 +2,7 @@
 
 #welcome {
     padding: 0 50px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

@@ -32,7 +32,7 @@ function Write({text, size, color}) {
             .map((letter, idx)=> <span  key={idx} onMouseLeave={handleMouseLeave}
                                   onMouseEnter={handleMouseEnter}
                                   style={{
-                                    fontSize: window.matchMedia("(min-width: 700px)").matches ? size : 37,
+                                    fontSize: window.matchMedia("(min-width: 700px)").matches ? size : Math.round(size / 2.16),
                                     lineHeight: window.matchMedia("(max-width: 700px)").matches ? '50px': '90px',
                                     color: "black",
                                     fontWeight: "bold",

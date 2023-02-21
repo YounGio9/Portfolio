@@ -1,0 +1,189 @@
+#Apropos {
+    padding: 0 100px;
+    height: auto;
+    position: relative;
+}
+
+.Ma-description {
+    color: white;
+    width: 60%;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.react-div {
+    position: relative;
+    height: auto;
+    width: calc(25vw + 15px);
+    height: 25vw;
+}
+
+.react-part {
+    height: 135px;
+    border: 15px solid #61DAFB;
+    border-radius: 50%;
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+   
+}
+
+.react-part:first-child {
+    animation: spin-1 infinite 10s ease-out;
+}
+
+.react-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.react-div img {
+    position: absolute;
+    z-index: 1;
+    width: auto;
+}
+
+.npm {
+    left: 25%;
+    top: 13%;
+    height: 31px;
+}
+
+.express {
+    left: 60%;
+    top: 10%;
+    height: 60px;
+}
+
+.mongo {
+    top: 44%;
+    left: 7%;
+    height: 60px;
+}
+
+.tailwind {
+    top: 44%;
+    right: 6.5%;
+    height: 55px;
+}
+
+.next {
+    bottom: 8%;
+    left: 15%;
+    height: 100px;
+}
+
+.node {
+    bottom: 12%;
+    height: 60px;
+    right: 19%;
+}
+.react-part:nth-child(2) {
+    animation: spin-2 infinite 10s ease-in;
+}
+
+.react-circle {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #61DAFB;
+    border-radius: 50%;
+    background: #61DAFB;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@keyframes spin-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+   
+    100% {
+        transform: rotate(240deg);
+    }
+}
+
+@keyframes spin-2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(300deg);
+    }
+}
+
+@media (max-width: 700px) {
+    #Apropos {
+        padding: 0 10px;
+    }
+    .Ma-description {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+    .react-wrapper {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .react-part {
+        height: 70px;
+        border: 10px solid #61DAFB;
+        border-radius: 50%;
+        width: 65vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .react-circle {
+        width: 40px;
+        height: 40px;
+    }
+    .react-div {
+        position: relative;
+        width: calc(66vw + 10px);
+        height: 65vw;        
+    }
+
+    .npm {
+        
+        height: 16px;
+    }
+    
+    .express {
+        
+        height: 45px;
+    }
+    
+    .mongo {
+        top: 41%;
+        height: 45px;
+    }
+    
+    .tailwind {
+        
+        height: 36px;
+    }
+    
+    .next {
+        left: 7%;
+        bottom: 5%;
+        height: 75px;
+    }
+    
+    .node {
+        height: 45px;
+        
+    }
+}

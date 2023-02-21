@@ -14,7 +14,7 @@ function Banner({menuOpen}) {
             <div id={'menu'}>
                 <ul>
                     {sections.map(section =>
-                       <a key={section} href={`#${section}`}><li className='section'>{section}</li></a> )
+                       <a key={section} href={`#${section.replace(/\s/, '')}`}><li className='section'>{section}</li></a> )
                     }
                 </ul>
             </div>
