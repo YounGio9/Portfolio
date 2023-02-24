@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6aa6c022.css",
-    "main.js": "/Portfolio/static/js/main.fd64bf1c.js",
+    "main.js": "/Portfolio/static/js/main.caaeca20.js",
     "static/js/787.1f11dfe9.chunk.js": "/Portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png": "/Portfolio/static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.29d629a2e0b98d0e15b0.png",
     "static/media/next-js-removebg-preview.png": "/Portfolio/static/media/next-js-removebg-preview.8eb0066ad83c753ec7d5.png",
@@ -10,11 +10,11 @@
     "static/media/2560px-Npm-logo.svg.png": "/Portfolio/static/media/2560px-Npm-logo.svg.061e65dec1a5ceee089a.png",
     "index.html": "/Portfolio/index.html",
     "main.6aa6c022.css.map": "/Portfolio/static/css/main.6aa6c022.css.map",
-    "main.fd64bf1c.js.map": "/Portfolio/static/js/main.fd64bf1c.js.map",
+    "main.caaeca20.js.map": "/Portfolio/static/js/main.caaeca20.js.map",
     "787.1f11dfe9.chunk.js.map": "/Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa6c022.css",
-    "static/js/main.fd64bf1c.js"
+    "static/js/main.caaeca20.js"
   ]
 }
