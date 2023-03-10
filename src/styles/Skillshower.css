@@ -1,0 +1,26 @@
+.skill-shower {
+    height: 13px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 5px auto 20px auto;
+}
+
+.skill-wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+@media (min-width: 1100px) {
+    .skill-wrapper {
+        width: 42%;
+        margin-left: 0;
+    }
+    .skill-shower {
+        height: 18px;
+    }
+
+    .total-skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

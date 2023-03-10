@@ -5,8 +5,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
+    align-items: center;
 }
 .menu {
     display: none;
@@ -20,18 +20,20 @@
     width: 13%;
     height: 5vh;
     font-size: 1em;
-    border: 1px solid #08fdd8;
+    border: 1px solid #61DAFB;
     background-color: transparent;
-    color: #08fdd8;
+    color: #61DAFB;
+   /* box-shadow: 0 0 1.8px #61DAFB;*/
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .menu {
         display: block;
         background-color: transparent;
         border: 0;
-        position: absolute;
+        position: fixed;
         top: 50px;
+        left: 30px;
     }
     #welcome {
         padding: 0 30px;

@@ -123,11 +123,14 @@
 
 @media (max-width: 700px) {
     #Apropos {
-        padding: 0 10px;
+        padding: 0 15px;
     }
     .Ma-description {
         width: 100%;
         text-align: justify;
+        text-justify: distribute;
+        font-size: 1.35em;
+        line-height: 1.45em;
         margin-bottom: 30px;
     }
     .react-wrapper {

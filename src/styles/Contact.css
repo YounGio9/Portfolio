@@ -1,0 +1,84 @@
+#Contact {
+    padding: 0 100px;
+    height: auto;
+    color: white;
+    position: relative; 
+    font-size: 1.5em;
+}
+
+#Contact form {
+    width: 90%;
+    background: transparent;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: grid;
+    overflow: hidden;
+    padding: 15px;
+    gap: 30px;
+    box-shadow: 0 0 25px #61dafb3b;
+    
+}
+#Contact input[type="text"], input[type="email"], textarea {
+    background: #eee;
+    color: black;
+    border: 0;
+    border-radius: 0;
+}
+#Contact input[type="text"], input[type="email"] {
+    height: 45px;
+    width: 85%;
+
+}
+.name-mail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Contact label {
+    display: flex;
+    font-style: italic;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+
+}
+
+input[type="submit"] {
+    width: 25%;
+    font-weight: bold;
+    margin: auto;
+    font-size: 23px;
+    text-align: center;
+    background-color: #61DAFB;
+    border: 0;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+}
+
+
+@media (max-width: 700px) {
+    #Contact {
+        padding: 0 15px;
+        font-size: 1.3em;
+    }
+    #Contact input[type="text"], input[type="email"] {
+        height: 33px;
+        width: 100%;
+        font-size: large;
+    }
+
+    textarea {
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+        font-weight: normal;
+    }
+    .name-mail-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

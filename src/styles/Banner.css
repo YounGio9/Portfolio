@@ -17,12 +17,12 @@
 
 #presentation {
     width: 100%;
-    background-color: #08fdd8;
+    background-color: #61DAFB;
     color: black;
 }
 #second {
     background-color: black;
-    color: #08fdd8;
+    color: #61DAFB;
     font-size: 1.7vw;
 }
 #first {
@@ -41,11 +41,11 @@ h5 {
 }
 #menu {
     width: 100%;
-    border-top: 1px solid #909096;
 }
 ul {
     list-style-type: none;
     display: flex;
+    gap: 15px;
     flex-direction: column;
 }
 a {
@@ -53,7 +53,7 @@ a {
     color: #9d9da3;
 }
 li {
-    border-bottom: 1px solid #909096;
+    
     padding: 10px;
     text-align: center;
 
@@ -66,7 +66,7 @@ li {
 }
 @media (max-width: 650px) {
     #presentation p { 
-        font-size: 20px;
+        font-size: 28px;
     }
     .Banner-open {
         width: 200px;

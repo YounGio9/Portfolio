@@ -1,0 +1,15 @@
+#Competences {
+    padding: 0 100px;
+    height: auto;
+    color: white;
+}
+
+#Competences .Ma-description {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+    #Competences {
+        padding: 0 15px;
+    }
+}
